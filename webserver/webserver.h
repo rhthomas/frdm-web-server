@@ -22,7 +22,7 @@ char body[] = \
 					<head><title>A simple Web Server</title></head>\
 					<body>\
 						<h1>COMP3215</h1>\
-						<form action=\"\" method=\"POST\">\
+						<form action=\"\" method=\"post\">\
 							<button name=\"button\" value='1' disable=\"disable\">LED ON</button>\
 							<button name=\"button\" value='0' disable=\"disable\">LED OFF</button>\
 						</form>\
