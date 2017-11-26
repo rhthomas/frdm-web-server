@@ -61,6 +61,6 @@
 ".\build\sha1.o"
 ".\build\main.o"
 --scatter "mbed/TARGET_KW41Z/TOOLCHAIN_ARM_STD/MKW41Z512xxx4.sct"
---show_full_path --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--show_full_path --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\BUILD\webserverBlinky.map" -o .\BUILD\webserverBlinky.axf

@@ -3,46 +3,59 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ¦ÌVision V5.21.1.0
-Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Jason Xie, HDU, LIC=8VRBS-LJYP8-QCVJ5-GQBNJ-PA1NA-VMDD0
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Rhys Thomas, University of Southampton, LIC=----
  
 Tool Versions:
-Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain:       MDK-Lite  Version: 5.24.1
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 3 (build 300)
-Assembler:       Armasm.exe V5.06 update 3 (build 300)
-Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
-Library Manager: ArmAr.exe V5.06 update 3 (build 300)
-Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
 CPU DLL:         
-Dialog DLL:      DCM.DLL V1.13.8.0
-Target DLL:      CMSIS_AGDI.dll V1.26.5.0
-Dialog DLL:      TCM.DLL V1.14.14.0
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-C:\Users\ThinkPad\Desktop\webserverBlinky_uvision5_kw41z\webserverBlinky\webserverBlinky.uvprojx
+\\VBOXSVR\labs\web-server\webserverBlinky_uvision5_kw41z\webserverBlinky\webserverBlinky.uvprojx
 Project File Date:  11/20/2017
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'webserverBlinky'
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'webserverBlinky'
 compiling ppp-blinky.cpp...
 PPP-Blinky/ppp-blinky.h(175): warning:  #1-D: last line of file ends without a newline
   void led_flash(void);
 PPP-Blinky/ppp-blinky.cpp: 1 warning, 0 errors
+compiling sha1.cpp...
+compiling main.cpp...
+PPP-Blinky\ppp-blinky.h(175): warning:  #1-D: last line of file ends without a newline
+  void led_flash(void);
+main.cpp: 1 warning, 0 errors
 linking...
-C:\Users\ThinkPad\AppData\Local\Temp\pcc-3(105): warning: L6312W: Empty Execution region description for region RW_IRAM1
-Program Size: Code=31124 RO-data=2396 RW-data=600 ZI-data=4928  
-Finished: 0 information, 1 warning and 0 error messages.
-".\BUILD\webserverBlinky.axf" - 0 Error(s), 2 Warning(s).
+C:\Users\rhyst\AppData\Local\Temp\p3c0-3(105): warning: L6312W: Empty Execution region description for region RW_IRAM1
+C:\Users\rhyst\AppData\Local\Temp\p3c0-3: error: L6047U: The size of this image (34356 bytes) exceeds the maximum allowed for this version of the linker
+Finished: 0 information, 1 warning, 0 error and 1 fatal error messages.
+".\BUILD\webserverBlinky.axf" - 1 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KWxx_DFP.1.7.0.pack
+                Keil.Kinetis_KWxx_DFP.1.7.0
+                NXP Kinetis KWxx Series Device Support
 
 <h2>Collection of Component include folders:</h2>
-  C:\Users\ThinkPad\Desktop\webserverBlinky_uvision5_kw41z\webserverBlinky\RTE
+  .\RTE\_webserverBlinky
   C:\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Target not created.
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>
